@@ -10,8 +10,4 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-app-1';
-  protected name = signal('Angular');
-  handleClick() {
-    this.name.set('Zoneless Angular');
-  }
 }
